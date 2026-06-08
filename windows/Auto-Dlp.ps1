@@ -58,7 +58,7 @@ Write-Host "1. Default Folder"
 Write-Host "2. Custom Folder"
 $saveChoice = Read-Host "Choose"
 
-$saveDir = "$HOME\Downloads\yt-dlp"
+$saveDir = "$HOME\Videos\yt-dlp"
 
 if ($saveChoice -eq "2") {
 
@@ -119,7 +119,7 @@ if ($mode -eq "1") {
         "3" { $height = 1080 }
         "4" { $height = 1440 }
         "5" { $height = 2160 }
-        default { $height = 1080 }
+         { $height = 1080 }
     }
 
     yt-dlp `
@@ -148,7 +148,7 @@ else {
         "2" { $format = "m4a" }
         "3" { $format = "opus" }
         "4" { $format = "webm" }
-        default { $format = "mp3" }
+         { $format = "mp3" }
     }
 
     Write-Host ""
@@ -165,7 +165,7 @@ else {
         "2" { $quality = "192K" }
         "3" { $quality = "128K" }
         "4" { $quality = "64K" }
-        default { $quality = "192K" }
+         { $quality = "192K" }
     }
 
     yt-dlp `
