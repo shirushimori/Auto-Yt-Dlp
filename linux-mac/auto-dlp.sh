@@ -50,7 +50,7 @@ echo "1) Default (~/Downloads/yt-dlp)"
 echo "2) Custom Folder"
 read -p "Choose: " SAVECHOICE
 
-DEFAULT_DIR="$HOME/Downloads/yt-dlp"
+DEFAULT_DIR="$HOME/Videos/yt-dlp"
 
 if [ "$SAVECHOICE" = "1" ]; then
     SAVE_DIR="$DEFAULT_DIR"
