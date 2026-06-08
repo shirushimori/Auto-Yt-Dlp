@@ -46,7 +46,7 @@ read -p "Choose: " MODE
 
 echo
 echo "Save Location:"
-echo "1) Default (~/Downloads/yt-dlp)"
+echo "1) Default (~/Videos/yt-dlp)"
 echo "2) Custom Folder"
 read -p "Choose: " SAVECHOICE
 
